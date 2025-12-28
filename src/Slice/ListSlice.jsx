@@ -18,7 +18,7 @@ const listSlice = createSlice({
                 "subtitles": ["English", "Hindi"],
                 "age_rating": "R-17",
                 "studio": "Pierrot",
-                "poster_url": "https://example.com/bleach-tybw-separation.jpg",
+                "poster_url": "./Bleach.jpg",
                 "tab_number": 1
             },
             {
@@ -35,7 +35,7 @@ const listSlice = createSlice({
                 "subtitles": ["English", "Hindi"],
                 "age_rating": "R-17",
                 "studio": "MAPPA",
-                "poster_url": "https://example.com/jujutsu-kaisen-s2.jpg",
+                "poster_url": "./JuJutsu_Kaisen.jpg",
                 "tab_number": 1
             },
             {
@@ -52,7 +52,7 @@ const listSlice = createSlice({
                 "subtitles": ["English", "Hindi"],
                 "age_rating": "PG-13",
                 "studio": "Lerche",
-                "poster_url": "https://example.com/classroom-of-the-elite.jpg",
+                "poster_url": "./Classroom_of_the_Elite.jpg",
                 "tab_number": 1
             },
             {
@@ -69,7 +69,7 @@ const listSlice = createSlice({
                 "subtitles": ["English", "Hindi"],
                 "age_rating": "PG-13",
                 "studio": "Madhouse",
-                "poster_url": "https://example.com/one-punch-man.jpg",
+                "poster_url": "./One_Punch_Man.jpg",
                 "tab_number": 1
             },
             {
@@ -86,7 +86,7 @@ const listSlice = createSlice({
                 "subtitles": ["English", "Hindi"],
                 "age_rating": "PG-13",
                 "studio": "Bones",
-                "poster_url": "https://example.com/mob-psycho-100-iii.jpg",
+                "poster_url": "./Mob_Psycho_100.jpg",
                 "tab_number": 1
             },
             {
@@ -103,7 +103,7 @@ const listSlice = createSlice({
                 "subtitles": ["English", "Hindi"],
                 "age_rating": "R-17",
                 "studio": "Ufotable",
-                "poster_url": "https://example.com/demon-slayer-hashira.jpg",
+                "poster_url": "./Demon-Slayer.jpg",
                 "tab_number": 1
             },
             {
@@ -120,7 +120,7 @@ const listSlice = createSlice({
                 "subtitles": ["English", "Hindi"],
                 "age_rating": "PG-13",
                 "studio": "Wit Studio & Cloverworks",
-                "poster_url": "https://example.com/spy-x-family-s2.jpg",
+                "poster_url": "./Spy-X-Family.jpg",
                 "tab_number": 1
             },
             {
@@ -137,7 +137,7 @@ const listSlice = createSlice({
                 "subtitles": ["English", "Hindi"],
                 "age_rating": "R-17",
                 "studio": "Madhouse",
-                "poster_url": "https://example.com/death-note.jpg",
+                "poster_url": "./Death-Note.jpg",
                 "tab_number": 1
             },
             {
@@ -154,7 +154,7 @@ const listSlice = createSlice({
                 "subtitles": ["English", "Hindi"],
                 "age_rating": "PG-13",
                 "studio": "Pierrot",
-                "poster_url": "https://example.com/black-clover.jpg",
+                "poster_url": "./Black-Clover.jpg",
                 "tab_number": 1
             },
             {
@@ -171,7 +171,7 @@ const listSlice = createSlice({
                 "subtitles": ["English", "Hindi"],
                 "age_rating": "PG-13",
                 "studio": "Nexus",
-                "poster_url": "https://example.com/eminence-in-shadow.jpg",
+                "poster_url": "./The-Eminence-in-Shadow.jpg",
                 "tab_number": 1
             },
             {
@@ -188,7 +188,7 @@ const listSlice = createSlice({
                 "subtitles": ["English", "Hindi"],
                 "age_rating": "PG-13",
                 "studio": "J.C.Staff",
-                "poster_url": "https://example.com/exorcist-reincarnation.jpg",
+                "poster_url": "./The-Reincarnation-of-the-Strongest-Exorcist-in-Another-World.jpg",
                 "tab_number": 1
             },
             {
@@ -205,7 +205,7 @@ const listSlice = createSlice({
                 "subtitles": ["English", "Hindi"],
                 "age_rating": "PG-13",
                 "studio": "David Production",
-                "poster_url": "https://example.com/fire-force.jpg",
+                "poster_url": "./Fire-Force.jpg",
                 "tab_number": 1
             },
             {
@@ -222,7 +222,7 @@ const listSlice = createSlice({
                 "subtitles": ["English", "Hindi"],
                 "age_rating": "PG-13",
                 "studio": "Madhouse",
-                "poster_url": "https://example.com/hunter-x-hunter.jpg",
+                "poster_url": "./Hunter-X-Hunter.jpg",
                 "tab_number": 1
             },
             {
@@ -239,7 +239,7 @@ const listSlice = createSlice({
                 "subtitles": ["English", "Hindi"],
                 "age_rating": "PG-13",
                 "studio": "Brain's Base",
-                "poster_url": "https://example.com/snafu.jpg",
+                "poster_url": "./My-Teen-Romantic-Comedy.jpg",
                 "tab_number": 1
             },
             {
@@ -256,10 +256,16 @@ const listSlice = createSlice({
                 "subtitles": ["English", "Hindi"],
                 "age_rating": "PG-13",
                 "studio": "Haoliners Animation League",
-                "poster_url": "https://example.com/immortal-king.jpg",
+                "poster_url": "./The-Daily-Life-of-the-Immortal-King1.jpg",
                 "tab_number": 1
             }
         ]
-
+    },
+    reducers:{
+        message:(state,{payload})=>{console.log("hi");
+        }
     }
 })
+
+export const {message} = listSlice.actions
+export default listSlice.reducer

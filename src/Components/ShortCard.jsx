@@ -1,22 +1,20 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
-function ShortCard({ anime }) {
-  const handleSearchTitle = () => {
-    const query = anime.title || anime.original_title || "";
-    if (!query.trim()) return;
-
-    const encoded = encodeURIComponent(query.trim());
-    window.open(`https://www.google.com/search?q=${encoded}`, "_blank", "noopener,noreferrer");
+function ShortCard({ data }) {
+  const navigate = useNavigate()
+  const handleRedirect = () => {
+    navigate("detail", {state:data})
   };
 
   return (
     <div className="max-w-sm mx-auto bg-white shadow-lg rounded-xl overflow-hidden border border-gray-200 hover:shadow-xl transition-all duration-300 group">
       {/* Poster */}
       <div className="h-64 bg-gray-100 overflow-hidden">
-        {anime.poster_url ? (
+        {data.poster_url ? (
           <img
-            src={anime.poster_url}
-            alt={anime.title || "Anime poster"}
+            src={data.poster_url}
+            alt={data.title || "Media poster"}
             className="w-full h-full object-cover hover:scale-105 transition-transform duration-300 group-hover:scale-105"
           />
         ) : (
@@ -30,20 +28,28 @@ function ShortCard({ anime }) {
       <div className="p-6">
         {/* Title */}
         <h3 className="text-xl font-bold text-gray-900 mb-2 line-clamp-2">
-          {anime.title || "Untitled Anime"}
+          {data.title || "Untitled Media"}
         </h3>
 
         {/* Badges */}
-        {(anime.type || anime.status) && (
+        {(data.type || data.status || data.tab_number) && (
           <div className="flex flex-wrap gap-2 mb-4">
-            {anime.type && anime.type.trim() && (
+            {/* Type badge */}
+            {data.type && data.type.trim() && (
               <span className="px-3 py-1 rounded-full bg-gray-100 text-xs font-medium text-gray-700">
-                {anime.type}
+                {data.type}
               </span>
             )}
-            {anime.status && anime.status.trim() && (
+            {/* Status badge */}
+            {data.status && data.status.trim() && (
               <span className="px-3 py-1 rounded-full bg-emerald-100 text-emerald-800 text-xs font-medium">
-                {anime.status}
+                {data.status}
+              </span>
+            )}
+            {/* Tab number badge */}
+            {data.tab_number && (
+              <span className="px-3 py-1 rounded-full bg-indigo-100 text-indigo-800 text-xs font-medium border border-indigo-200">
+                Tab #{data.tab_number}
               </span>
             )}
           </div>
@@ -51,11 +57,11 @@ function ShortCard({ anime }) {
 
         {/* Action button */}
         <button
-          onClick={handleSearchTitle}
+          onClick={handleRedirect}
           className="w-full bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white font-semibold py-3 px-4 rounded-xl text-sm shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
-          disabled={!anime.title?.trim() && !anime.original_title?.trim()}
+          disabled={!data.title?.trim() && !data.original_title?.trim()}
         >
-          🔍 Search on Google
+          🔍 View
         </button>
       </div>
     </div>

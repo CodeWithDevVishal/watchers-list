@@ -1,11 +1,10 @@
+import { configureStore } from '@reduxjs/toolkit'
 import React from 'react'
+import listSlice from '../Slice/ListSlice'
 
-function Store() {
-  return (
-    <div>
-      
-    </div>
-  )
-}
-
+const Store =  configureStore({
+    reducer:{
+        list:listSlice
+    }
+})
 export default Store
