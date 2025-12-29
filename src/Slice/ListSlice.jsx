@@ -541,7 +541,7 @@ const listSlice = createSlice({
                 "type": "anime",
                 "title": "Hell's Paradise: Jigokuraku",
                 "original_title": "地獄楽",
-                "description": "Death‑row ninja Gabimaru joins a deadly expedition to a mysterious island to find the elixir of life in exchange for a pardon.",
+                "description": "Death-row ninja Gabimaru joins a deadly expedition to a mysterious island to find the elixir of life in exchange for a pardon.",
                 "genres": ["Action", "Dark Fantasy", "Historical"],
                 "status": "ongoing",
                 "season": 1,
@@ -776,7 +776,7 @@ const listSlice = createSlice({
                 "subtitles": ["English", "Hindi"],
                 "age_rating": "PG-13",
                 "studio": "Studio Gokumi",
-                "poster_url": "./galaxy-next-door.jpg",
+                "poster_url": "./A-Galaxy-Next-Door.jpg",
                 "tab_number": 4
             },
             {
@@ -793,7 +793,7 @@ const listSlice = createSlice({
                 "subtitles": ["English", "Hindi"],
                 "age_rating": "PG-13",
                 "studio": "Shin-Ei Animation",
-                "poster_url": "./couple-of-cuckoos.jpg",
+                "poster_url": "./A-Couple-of-Cuckoos.jpg",
                 "tab_number": 4
             },
             {
@@ -810,7 +810,7 @@ const listSlice = createSlice({
                 "subtitles": ["English", "Hindi"],
                 "age_rating": "PG-13",
                 "studio": "Pine Jam",
-                "poster_url": "./kubo-wont-let-me-be-invisible.jpg",
+                "poster_url": "./Kubo-Won't-Let-Me-Be-Invisible.jpg",
                 "tab_number": 4
             },
             {
@@ -827,7 +827,7 @@ const listSlice = createSlice({
                 "subtitles": ["English", "Hindi"],
                 "age_rating": "R-17",
                 "studio": "A-1 Pictures",
-                "poster_url": "./86-eighty-six.jpg",
+                "poster_url": "./86-Eighty-Six.jpg",
                 "tab_number": 4
             },
             {
@@ -844,7 +844,7 @@ const listSlice = createSlice({
                 "subtitles": ["English", "Hindi"],
                 "age_rating": "PG-13",
                 "studio": "Seven Arcs",
-                "poster_url": "./tonikawa.jpg",
+                "poster_url": "./TONIKAWA_Over-the-Moon-For-You.jpg",
                 "tab_number": 4
             },
             {
@@ -861,7 +861,7 @@ const listSlice = createSlice({
                 "subtitles": ["English", "Hindi"],
                 "age_rating": "PG-13",
                 "studio": "CloverWorks",
-                "poster_url": "./horimiya.jpg",
+                "poster_url": "./Horimiya.jpg",
                 "tab_number": 4
             },
             {
@@ -878,7 +878,7 @@ const listSlice = createSlice({
                 "subtitles": ["English", "Hindi"],
                 "age_rating": "PG-13",
                 "studio": "Lay-duce",
-                "poster_url": "./tomochan-is-a-girl.jpg",
+                "poster_url": "./Tomo-Chan-Is-a-Girl.png",
                 "tab_number": 4
             },
             {
@@ -895,7 +895,7 @@ const listSlice = createSlice({
                 "subtitles": ["English", "Hindi"],
                 "age_rating": "PG-13",
                 "studio": "Studio Silver",
-                "poster_url": "./stepsister-ex-girlfriend.jpg",
+                "poster_url": "./My-Stepsister-is-My-Ex-Girlfriend.png",
                 "tab_number": 4
             },
             {
@@ -912,7 +912,7 @@ const listSlice = createSlice({
                 "subtitles": ["English", "Hindi"],
                 "age_rating": "PG-13",
                 "studio": "Diomedéa",
-                "poster_url": "./saints-magic-power-s2.jpg",
+                "poster_url": "./The-Saint's-Magic-Power-is-Omnipotent.png",
                 "tab_number": 4
             },
             {
@@ -929,7 +929,7 @@ const listSlice = createSlice({
                 "subtitles": ["English", "Hindi"],
                 "age_rating": "R-17",
                 "studio": "White Fox",
-                "poster_url": "./rezero.jpg",
+                "poster_url": "./Re_Zero-Starting-Life-in-Another-World.webp",
                 "tab_number": 4
             },
             {
@@ -946,7 +946,7 @@ const listSlice = createSlice({
                 "subtitles": ["English", "Hindi"],
                 "age_rating": "PG-13",
                 "studio": "Connect",
-                "poster_url": "./oresuki.jpg",
+                "poster_url": "./ORESUKI_Are-You-the-Only-One-Who-Loves-Me.png",
                 "tab_number": 4
             },
             {
@@ -963,7 +963,7 @@ const listSlice = createSlice({
                 "subtitles": ["English", "Hindi"],
                 "age_rating": "PG-13",
                 "studio": "8bit",
-                "poster_url": "./knights-magic.jpg",
+                "poster_url": "./Knight's-&-Magic.jpe",
                 "tab_number": 4
             },
             {
@@ -980,7 +980,7 @@ const listSlice = createSlice({
                 "subtitles": ["English", "Hindi"],
                 "age_rating": "PG-13",
                 "studio": "AJIADO",
-                "poster_url": "./bookworm.jpg",
+                "poster_url": "./Ascendance-of-a-Bookworm.png",
                 "tab_number": 4
             },
             {
@@ -997,7 +997,7 @@ const listSlice = createSlice({
                 "subtitles": ["English", "Hindi"],
                 "age_rating": "R-17",
                 "studio": "C2C",
-                "poster_url": "./tsukimichi.jpg",
+                "poster_url": "./Tsukimichi_Moonlit-Fantasy.jpg",
                 "tab_number": 4
             },
             {
@@ -1014,7 +1014,7 @@ const listSlice = createSlice({
                 "subtitles": ["English", "Hindi"],
                 "age_rating": "PG-13",
                 "studio": "Studio Flad",
-                "poster_url": "./banished-hero.jpg",
+                "poster_url": "./Banished-from-the-Hero's-Party.jpg",
                 "tab_number": 4
             },
             {
@@ -1031,7 +1031,7 @@ const listSlice = createSlice({
                 "subtitles": ["English", "Hindi"],
                 "age_rating": "R-17",
                 "studio": "Studio Kai",
-                "poster_url": "./skeleton-knight.jpg",
+                "poster_url": "./Skeleton-Knight-in-Another-World.png",
                 "tab_number": 4
             }
 

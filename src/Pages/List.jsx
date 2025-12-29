@@ -2,10 +2,10 @@ import React, { useState, useMemo } from 'react'
 import { useSelector } from 'react-redux'
 import ShortCard from '../Components/ShortCard'
 
-function List( ) {
-    const anime = useSelector(state=>state.list.list)
+function List() {
+    const anime = useSelector(state => state.list.list)
     console.log(anime);
-    
+
     const [searchTerm, setSearchTerm] = useState('')
     const [selectedType, setSelectedType] = useState('all')
     const [selectedTab, setSelectedTab] = useState('all')
@@ -19,7 +19,7 @@ function List( ) {
             .filter(Boolean)
             .map(type => type.toLowerCase().trim())
 
-        const predefinedTypes = ['anime', 'movie', 'web series']
+        const predefinedTypes = ['anime', 'manhwa', 'manga', 'movie', 'web series']
         const uniqueTypes = new Set([...dataTypes, ...predefinedTypes])
 
         return ['all', ...Array.from(uniqueTypes).sort()]
@@ -42,7 +42,7 @@ function List( ) {
             const matchesType = selectedType === 'all' ||
                 item.type?.toLowerCase().trim() === selectedType
 
-            const matchesTab = selectedTab === 'all' || 
+            const matchesTab = selectedTab === 'all' ||
                 item.tab_number?.toString() === selectedTab
 
             return matchesSearch && matchesType && matchesTab
@@ -115,9 +115,11 @@ function List( ) {
                                     <option key={type} value={type}>
                                         {type === 'all' ? '🎯 All Types' :
                                             type === 'anime' ? '🎌 Anime' :
-                                            type === 'movie' ? '🎬 Movies' :
-                                            type === 'web series' ? '📺 Web Series' :
-                                            `${type.charAt(0).toUpperCase() + type.slice(1)}`}
+                                                type === 'manhwa' ? '📑 Manhwa' :
+                                                    type === 'manga' ? '🧾 Manga' :
+                                                        type === 'movie' ? '🎬 Movies' :
+                                                            type === 'web series' ? '📺 Web Series' :
+                                                                `${type.charAt(0).toUpperCase() + type.slice(1)}`}
                                     </option>
                                 ))}
                             </select>
