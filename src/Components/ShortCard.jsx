@@ -4,7 +4,13 @@ import { useNavigate } from "react-router-dom";
 function ShortCard({ data }) {
   const navigate = useNavigate()
   const handleRedirect = () => {
-    navigate("detail", {state:data})
+    // navigate("detail", {state:data})
+    const query = data.title || data.original_title || "";
+    if (!query.trim()) return;
+
+    const encoded = encodeURIComponent(query.trim());
+    const url = `https://www.google.com/search?q=${encoded}`;
+    window.open(url, "_blank", "noopener,noreferrer");
   };
 
   return (

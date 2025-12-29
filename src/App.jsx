@@ -45,22 +45,13 @@ function App() {
   return (
     <>
 
-    <Routes>
-      <Route path='/watchers-list/'>
-        <Route path='' element={<List/>}/>
-        <Route path='detail' element={<InformationCard/>}/>
-      </Route>
-    </Routes>
-    
-      {/* <List anime={data}/>
-      {
-        data.map(el => (
-          <span key={el.tab_number}>
-            <InformationCard   data={el} />
-          </span>
-        ))
-      } */}
-      {/* <Footer/> */}
+      <Routes>
+        <Route path='/watchers-list/'>
+          <Route path='' element={<List />} />
+          <Route path='detail' element={<InformationCard />} />
+        </Route>
+      </Routes>
+      <Footer />
     </>
   )
 }

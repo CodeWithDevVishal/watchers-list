@@ -61,10 +61,10 @@ function List( ) {
                 {/* Header */}
                 <div className="text-center mb-12">
                     <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-purple-600 via-pink-600 to-indigo-600 bg-clip-text text-transparent mb-4 drop-shadow-lg">
-                        Media Collection
+                        Watchers List
                     </h1>
                     <p className="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
-                        Discover anime, movies, and web series
+                        Anime, Movies, and Web Series
                     </p>
                 </div>
 
