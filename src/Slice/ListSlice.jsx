@@ -6,7 +6,7 @@ const listSlice = createSlice({
         list: [
             {
                 "type": "anime",
-                "title": "Bleach: Thousand-Year Blood War - The Separation",
+                "title": "Bleach: Thousand-Year Blood War - The Separation [season part-2]",
                 "original_title": "BLEACH 千年血戦篇-訣別譚-",
                 "description": "Ichigo and the Soul Reapers continue their intense battle against Yhwach and the Quincy invasion as the fate of both worlds hangs in the balance.",
                 "genres": ["Action", "Supernatural", "Fantasy"],
@@ -19,11 +19,17 @@ const listSlice = createSlice({
                 "age_rating": "R-17",
                 "studio": "Pierrot",
                 "poster_url": "./Bleach.jpg",
+                "progress": {
+                    "episodes_watched": 7,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 1
             },
             {
                 "type": "anime",
-                "title": "Jujutsu Kaisen Season 2",
+                "title": "Jujutsu Kaisen [Season 2]",
                 "original_title": "呪術廻戦 第2期",
                 "description": "Gojo's past unfolds while the Shibuya Incident reveals the true threat of Jujutsu Society as powerful curses wreak havoc on Tokyo.",
                 "genres": ["Action", "Dark Fantasy", "Supernatural"],
@@ -36,11 +42,17 @@ const listSlice = createSlice({
                 "age_rating": "R-17",
                 "studio": "MAPPA",
                 "poster_url": "./JuJutsu_Kaisen.jpg",
+                "progress": {
+                    "episodes_watched": 1,
+                    "episodes_total": 23,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 1
             },
             {
                 "type": "anime",
-                "title": "Classroom of the Elite",
+                "title": "Classroom of the Elite [season 1]",
                 "original_title": "ようこそ実力至上主義の教室へ",
                 "description": "In an elite government school, students compete ruthlessly through exams and psychological games with their futures at stake.",
                 "genres": ["Psychological", "Drama", "School"],
@@ -53,16 +65,22 @@ const listSlice = createSlice({
                 "age_rating": "PG-13",
                 "studio": "Lerche",
                 "poster_url": "./Classroom_of_the_Elite.jpg",
+                "progress": {
+                    "episodes_watched": 12,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 1
             },
             {
                 "type": "anime",
-                "title": "One Punch Man",
+                "title": "One Punch Man [season 3]",
                 "original_title": "ワンパンマン",
                 "description": "Saitama, an overpowered hero who defeats enemies with a single punch, searches for a worthy opponent to rekindle his passion for battle.",
                 "genres": ["Action", "Comedy", "Superhero"],
                 "status": "completed",
-                "season": 1,
+                "season": 3,
                 "total_seasons": 3,
                 "year": 2015,
                 "language": ["Japanese", "English"],
@@ -70,11 +88,17 @@ const listSlice = createSlice({
                 "age_rating": "PG-13",
                 "studio": "Madhouse",
                 "poster_url": "./One_Punch_Man.jpg",
+                "progress": {
+                    "episodes_watched": 3,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 1
             },
             {
                 "type": "anime",
-                "title": "Mob Psycho 100 III",
+                "title": "Mob Psycho 100 III [season 3]",
                 "original_title": "モブサイコ 100 III",
                 "description": "Mob, a middle school psychic, continues to control his overwhelming powers while navigating friendships, school, and personal growth.",
                 "genres": ["Action", "Comedy", "Supernatural"],
@@ -87,11 +111,17 @@ const listSlice = createSlice({
                 "age_rating": "PG-13",
                 "studio": "Bones",
                 "poster_url": "./Mob_Psycho_100.jpg",
+                "progress": {
+                    "episodes_watched": 12,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 1
             },
             {
                 "type": "anime",
-                "title": "Demon Slayer: Kimetsu no Yaiba - Hashira Training Arc",
+                "title": "Demon Slayer: Kimetsu no Yaiba - Hashira Training Arc [season 4]",
                 "original_title": "鬼滅の刃 柱稽古編",
                 "description": "Tanjiro undergoes intense training with the Hashira to prepare for his final confrontation with Muzan Kibutsuji.",
                 "genres": ["Action", "Dark Fantasy", "Supernatural"],
@@ -104,11 +134,17 @@ const listSlice = createSlice({
                 "age_rating": "R-17",
                 "studio": "Ufotable",
                 "poster_url": "./Demon-Slayer.jpg",
+                "progress": {
+                    "episodes_watched": 8,
+                    "episodes_total": 8,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 1
             },
             {
                 "type": "anime",
-                "title": "Spy x Family Season 2",
+                "title": "Spy x Family [Season 2]",
                 "original_title": "SPY×FAMILY シーズン2",
                 "description": "The Forger family continues their secret missions while maintaining the facade of a perfect family under constant danger and scrutiny.",
                 "genres": ["Action", "Comedy", "Slice of Life"],
@@ -121,6 +157,12 @@ const listSlice = createSlice({
                 "age_rating": "PG-13",
                 "studio": "Wit Studio & Cloverworks",
                 "poster_url": "./Spy-X-Family.jpg",
+                "progress": {
+                    "episodes_watched": 1,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 1
             },
             {
@@ -138,6 +180,12 @@ const listSlice = createSlice({
                 "age_rating": "R-17",
                 "studio": "Madhouse",
                 "poster_url": "./Death-Note.jpg",
+                "progress": {
+                    "episodes_watched": 37,
+                    "episodes_total": 37,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 1
             },
             {
@@ -147,7 +195,7 @@ const listSlice = createSlice({
                 "description": "Aster, a powerless boy in a world of mages, joins the Black Bull squad and strives to become the Wizard King through sheer determination and effort.",
                 "genres": ["Action", "Adventure", "Fantasy"],
                 "status": "ongoing",
-                "season": 1,
+                "season": 5,
                 "total_seasons": 5,
                 "year": 2017,
                 "language": ["Japanese", "English"],
@@ -155,16 +203,22 @@ const listSlice = createSlice({
                 "age_rating": "PG-13",
                 "studio": "Pierrot",
                 "poster_url": "./Black-Clover.jpg",
+                "progress": {
+                    "episodes_watched": 170,
+                    "episodes_total": 170,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 1
             },
             {
                 "type": "anime",
-                "title": "The Eminence in Shadow",
+                "title": "The Eminence in Shadow [season 2]",
                 "original_title": "陰の実力者になりたくて",
                 "description": "Cid Kagenou, a reborn otaku, manipulates events from the shadows as the mysterious Shadow while building his secret organization.",
                 "genres": ["Action", "Comedy", "Fantasy"],
                 "status": "ongoing",
-                "season": 1,
+                "season": 2,
                 "total_seasons": 2,
                 "year": 2022,
                 "language": ["Japanese", "English"],
@@ -172,6 +226,12 @@ const listSlice = createSlice({
                 "age_rating": "PG-13",
                 "studio": "Nexus",
                 "poster_url": "./The-Eminence-in-Shadow.jpg",
+                "progress": {
+                    "episodes_watched": 1,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 1
             },
             {
@@ -189,11 +249,17 @@ const listSlice = createSlice({
                 "age_rating": "PG-13",
                 "studio": "J.C.Staff",
                 "poster_url": "./The-Reincarnation-of-the-Strongest-Exorcist-in-Another-World.jpg",
+                "progress": {
+                    "episodes_watched": 13,
+                    "episodes_total": 13,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 1
             },
             {
                 "type": "anime",
-                "title": "Fire Force",
+                "title": "Fire Force [season 1]",
                 "original_title": "炎炎ノ消防隊",
                 "description": "Shinra Kusakabe joins a special firefighting force to combat spontaneous human combustion while uncovering the truth behind supernatural flames.",
                 "genres": ["Action", "Adventure", "Supernatural"],
@@ -206,16 +272,22 @@ const listSlice = createSlice({
                 "age_rating": "PG-13",
                 "studio": "David Production",
                 "poster_url": "./Fire-Force.jpg",
+                "progress": {
+                    "episodes_watched": 24,
+                    "episodes_total": 24,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 1
             },
             {
                 "type": "anime",
-                "title": "Hunter x Hunter",
+                "title": "Hunter x Hunter ",
                 "original_title": "ハンターハンター",
                 "description": "Gon seeks to become a Hunter like his father, embarking on an epic adventure filled with dangerous challenges, friendships, and dark conspiracies.",
                 "genres": ["Action", "Adventure", "Fantasy"],
                 "status": "completed",
-                "season": 1,
+                "season": 2,
                 "total_seasons": 2,
                 "year": 2011,
                 "language": ["Japanese", "English"],
@@ -223,16 +295,22 @@ const listSlice = createSlice({
                 "age_rating": "PG-13",
                 "studio": "Madhouse",
                 "poster_url": "./Hunter-X-Hunter.jpg",
+                "progress": {
+                    "episodes_watched": 148,
+                    "episodes_total": 148,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 1
             },
             {
                 "type": "anime",
-                "title": "My Teen Romantic Comedy SNAFU",
+                "title": "My Teen Romantic Comedy SNAFU Climax! [season 3]",
                 "original_title": "やはり俺の青春ラブコメはまちがっている。",
                 "description": "An introverted student joins a school club where he and two others solve student problems with unconventional methods and hidden romance.",
                 "genres": ["Comedy", "Romance", "School"],
                 "status": "completed",
-                "season": 1,
+                "season": 3,
                 "total_seasons": 3,
                 "year": 2013,
                 "language": ["Japanese", "English"],
@@ -240,23 +318,35 @@ const listSlice = createSlice({
                 "age_rating": "PG-13",
                 "studio": "Brain's Base",
                 "poster_url": "./My-Teen-Romantic-Comedy.jpg",
+                "progress": {
+                    "episodes_watched": 12,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 1
             },
             {
                 "type": "anime",
-                "title": "The Daily Life of the Immortal King",
+                "title": "The Daily Life of the Immortal King [season 1]",
                 "original_title": "仙王的日常生活",
                 "description": "An overpowered immortal king tries to live a normal daily life while hiding his vast power and mysterious background from those around him.",
                 "genres": ["Action", "Comedy", "Fantasy"],
                 "status": "completed",
                 "season": 1,
-                "total_seasons": 1,
+                "total_seasons": 4,
                 "year": 2020,
                 "language": ["Chinese", "English"],
                 "subtitles": ["English", "Hindi"],
                 "age_rating": "PG-13",
                 "studio": "Haoliners Animation League",
                 "poster_url": "./The-Daily-Life-of-the-Immortal-King1.jpg",
+                "progress": {
+                    "episodes_watched": 15,
+                    "episodes_total": 15,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 1
             },
 
@@ -277,23 +367,35 @@ const listSlice = createSlice({
                 "age_rating": "TV-14",
                 "studio": "Diomedea",
                 "poster_url": "./Handa-Kun.jpg",
+                "progress": {
+                    "episodes_watched": 12,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 2
             },
             {
                 "type": "anime",
-                "title": "We Never Learn: Bokuben",
+                "title": "We Never Learn: Bokuben [season 2]",
                 "original_title": "ぼくたちは勉強ができない",
                 "description": "A talented tutor must help three genius girls excel in their weakest subjects while managing their romantic feelings for him.",
                 "genres": ["Comedy", "Romance", "School"],
                 "status": "completed",
-                "season": 1,
-                "total_seasons": 3,
+                "season": 2,
+                "total_seasons": 2,
                 "year": 2019,
                 "language": ["Japanese", "English"],
                 "subtitles": ["English", "Hindi"],
                 "age_rating": "TV-14",
                 "studio": "Arvo Animation & Silver Co.",
                 "poster_url": "./We-Never-Learn-Bokuben.jpg",
+                "progress": {
+                    "episodes_watched": 13,
+                    "episodes_total": 13,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 2
             },
             {
@@ -311,16 +413,22 @@ const listSlice = createSlice({
                 "age_rating": "R-17",
                 "studio": "Okuruto Noboru",
                 "poster_url": "./Friends-Game.jpg",
+                "progress": {
+                    "episodes_watched": 12,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 2
             },
             {
                 "type": "anime",
-                "title": "My Wife is the Student Council President",
+                "title": "My Wife is the Student Council President+! pluse [season 2]",
                 "original_title": "おくさまが生徒会長!",
                 "description": "A high school vice-president discovers that the student council president is his arranged fiancée after an agreement made by their parents.",
                 "genres": ["Comedy", "Romance", "Ecchi"],
                 "status": "completed",
-                "season": 1,
+                "season": 2,
                 "total_seasons": 2,
                 "year": 2015,
                 "language": ["Japanese", "English"],
@@ -328,16 +436,22 @@ const listSlice = createSlice({
                 "age_rating": "TV-MA",
                 "studio": "Seven Co., Ltd.",
                 "poster_url": "./My-Wife-is-the-Student-Council-President.jpg",
+                "progress": {
+                    "episodes_watched": 12,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 2
             },
             {
                 "type": "anime",
-                "title": "Kaguya-sama: Love Is War",
+                "title": "Kaguya-sama: Love Is War Ultra Romantic [season 3]",
                 "original_title": "かぐや様は告らせたい",
                 "description": "Two proud geniuses engage in an elaborate psychological battle to make the other confess their love first.",
                 "genres": ["Comedy", "Romance", "School"],
                 "status": "completed",
-                "season": 1,
+                "season": 3,
                 "total_seasons": 3,
                 "year": 2019,
                 "language": ["Japanese", "English"],
@@ -345,16 +459,22 @@ const listSlice = createSlice({
                 "age_rating": "TV-14",
                 "studio": "A-1 Pictures",
                 "poster_url": "./Kaguya-sama_Love-Is-War.jpg",
+                "progress": {
+                    "episodes_watched": 12,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 2
             },
             {
                 "type": "anime",
-                "title": "The Way of the Househusband",
+                "title": "The Way of the Househusband [season 2]",
                 "original_title": "極主夫道",
                 "description": "A legendary yakuza boss retires from crime to become a devoted househusband, balancing domestic life with unexpected encounters from his past.",
                 "genres": ["Comedy", "Slice of Life", "Drama"],
                 "status": "completed",
-                "season": 1,
+                "season": 2,
                 "total_seasons": 2,
                 "year": 2021,
                 "language": ["Japanese", "English"],
@@ -362,6 +482,12 @@ const listSlice = createSlice({
                 "age_rating": "TV-14",
                 "studio": "J.C.Staff",
                 "poster_url": "./The-Way-of-the-Househusband.jpg",
+                "progress": {
+                    "episodes_watched": 5,
+                    "episodes_total": 5,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 2
             },
             {
@@ -379,11 +505,17 @@ const listSlice = createSlice({
                 "age_rating": "TV-14",
                 "studio": "Silver Link",
                 "poster_url": "./Wise-Man's-Grandchild.jpg",
+                "progress": {
+                    "episodes_watched": 12,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 2
             },
             {
                 "type": "anime",
-                "title": "Tower of God",
+                "title": "Tower of God [season 1]",
                 "original_title": "神之塔 -Tower of God-",
                 "description": "A boy enters a mysterious tower filled with tests and challenges to find his friend Rachel and uncover the tower's secrets.",
                 "genres": ["Action", "Adventure", "Fantasy"],
@@ -396,11 +528,17 @@ const listSlice = createSlice({
                 "age_rating": "TV-14",
                 "studio": "Telecom Animation Film",
                 "poster_url": "./Tower-of-God.jpg",
+                "progress": {
+                    "episodes_watched": 13,
+                    "episodes_total": 13,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 2
             },
             {
                 "type": "anime",
-                "title": "That Time I Got Reincarnated as a Slime Season 3",
+                "title": "That Time I Got Reincarnated as a Slime [Season 3]",
                 "original_title": "転生したらスライムだった件 第3期",
                 "description": "Rimuru Tempest, a demon slime, continues building his nation while facing new threats and political conspiracies.",
                 "genres": ["Action", "Adventure", "Fantasy"],
@@ -413,16 +551,22 @@ const listSlice = createSlice({
                 "age_rating": "R-17",
                 "studio": "8bit",
                 "poster_url": "./That-Time-I-Got-Reincarnated-as-a-Slime.jpg",
+                "progress": {
+                    "episodes_watched": 24,
+                    "episodes_total": 24,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 2
             },
             {
                 "type": "anime",
-                "title": "Welcome to Demon School! Iruma-kun",
+                "title": "Welcome to Demon School! Iruma-kun [season 3]",
                 "original_title": "悪魔学校のイルマくん",
                 "description": "A human boy is sold to a demon and enrolled in demon school where he must hide his identity while making friends.",
                 "genres": ["Comedy", "Fantasy", "School"],
                 "status": "completed",
-                "season": 1,
+                "season": 3,
                 "total_seasons": 3,
                 "year": 2019,
                 "language": ["Japanese", "English"],
@@ -430,11 +574,17 @@ const listSlice = createSlice({
                 "age_rating": "TV-14",
                 "studio": "Bandai Namco Pictures",
                 "poster_url": "./Welcome-to-Demon-School!_Iruma-kun.jpg",
+                "progress": {
+                    "episodes_watched": 21,
+                    "episodes_total": 21,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 2
             },
             {
                 "type": "anime",
-                "title": "Mushoku Tensei: Jobless Reincarnation",
+                "title": "Mushoku Tensei: Jobless Reincarnation [season 1]",
                 "original_title": "無職転生 ～異世界行ったら本気だす～",
                 "description": "A jobless man reincarnates in a fantasy world and becomes determined to live his new life to the fullest without regrets.",
                 "genres": ["Action", "Adventure", "Fantasy"],
@@ -447,11 +597,17 @@ const listSlice = createSlice({
                 "age_rating": "R-17",
                 "studio": "Studio Bind",
                 "poster_url": "./Mushoku-Tensei_Jobless-Reincarnation.jpg",
+                "progress": {
+                    "episodes_watched": 11,
+                    "episodes_total": 11,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 2
             },
             {
                 "type": "anime",
-                "title": "Dr. Stone",
+                "title": "Dr. Stone [season 1]",
                 "original_title": "ドクターストーン",
                 "description": "After humanity is mysteriously petrified, a genius boy works to rebuild civilization from scratch using science in a stone world.",
                 "genres": ["Adventure", "Sci-Fi", "Drama"],
@@ -464,11 +620,17 @@ const listSlice = createSlice({
                 "age_rating": "PG-13",
                 "studio": "TMS Entertainment",
                 "poster_url": "./Dr-Stone.jpg",
+                "progress": {
+                    "episodes_watched": 1,
+                    "episodes_total": 24,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 2
             },
             {
                 "type": "anime",
-                "title": "The Misfit of Demon King Academy II",
+                "title": "The Misfit of Demon King Academy [season 2]",
                 "original_title": "魔王学院の不適合者 Ⅱ",
                 "description": "The overpowered demon king Anos attends an academy where he must navigate conspiracies and reveal his true identity.",
                 "genres": ["Action", "Fantasy", "School"],
@@ -481,6 +643,12 @@ const listSlice = createSlice({
                 "age_rating": "TV-14",
                 "studio": "Silver Link",
                 "poster_url": "./The-Misfit-of-Demon-King-Academy.jpg",
+                "progress": {
+                    "episodes_watched": 7,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 2
             },
             {
@@ -498,6 +666,12 @@ const listSlice = createSlice({
                 "age_rating": "TV-14",
                 "studio": "Cloud Hearts",
                 "poster_url": "./The-Iceblade-Sorcerer-Shall-Rule-the-World.jpg",
+                "progress": {
+                    "episodes_watched": 12,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 2
             },
 
@@ -505,7 +679,7 @@ const listSlice = createSlice({
 
             {
                 "type": "anime",
-                "title": "Oshi no Ko",
+                "title": "Oshi no Ko [season 1]",
                 "original_title": "【推しの子】",
                 "description": "A murdered doctor is reborn as the child of his favorite idol and grows up inside the dark world of the entertainment industry.",
                 "genres": ["Drama", "Mystery", "Supernatural"],
@@ -518,28 +692,40 @@ const listSlice = createSlice({
                 "age_rating": "R-17",
                 "studio": "Doga Kobo",
                 "poster_url": "./Oshi-No-Ko.jpg",
+                "progress": {
+                    "episodes_watched": 1,
+                    "episodes_total": 11,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 3
             },
             {
                 "type": "anime",
-                "title": "Solo Leveling",
+                "title": "Solo Leveling [season 1]",
                 "original_title": "俺だけレベルアップな件",
                 "description": "In a world of monster gates and hunters, the weakest hunter gains a unique system that lets him level up without limit.",
                 "genres": ["Action", "Fantasy", "Adventure"],
                 "status": "ongoing",
                 "season": 1,
-                "total_seasons": 1,
+                "total_seasons": 2,
                 "year": 2024,
                 "language": ["Japanese", "Korean"],
                 "subtitles": ["English", "Hindi"],
                 "age_rating": "R-17",
                 "studio": "A-1 Pictures",
                 "poster_url": "./Solo-Leveling.jpg",
+                "progress": {
+                    "episodes_watched": 1,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 3
             },
             {
                 "type": "anime",
-                "title": "Hell's Paradise: Jigokuraku",
+                "title": "Hell's Paradise: Jigokuraku [season 1]",
                 "original_title": "地獄楽",
                 "description": "Death-row ninja Gabimaru joins a deadly expedition to a mysterious island to find the elixir of life in exchange for a pardon.",
                 "genres": ["Action", "Dark Fantasy", "Historical"],
@@ -552,6 +738,12 @@ const listSlice = createSlice({
                 "age_rating": "R-17",
                 "studio": "MAPPA",
                 "poster_url": "./Hells-Paradise.jpg",
+                "progress": {
+                    "episodes_watched": 13,
+                    "episodes_total": 13,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 3
             },
             {
@@ -569,16 +761,22 @@ const listSlice = createSlice({
                 "age_rating": "PG-13",
                 "studio": "EMT Squared & Magic Bus",
                 "poster_url": "./The-Aristocrat's-Otherworldly-Adventure_Serving-Gods-Who-Go-Too-Far.jpg",
+                "progress": {
+                    "episodes_watched": 12,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 3
             },
             {
                 "type": "anime",
-                "title": "Mashle: Magic and Muscles",
+                "title": "Mashle: Magic and Muscles [season 2]",
                 "original_title": "マッシュル-MASHLE-",
                 "description": "In a world where magic is everything, a boy with no magic uses overwhelming physical strength to survive at a magic academy.",
                 "genres": ["Action", "Comedy", "Fantasy"],
                 "status": "ongoing",
-                "season": 1,
+                "season": 2,
                 "total_seasons": 2,
                 "year": 2023,
                 "language": ["Japanese", "English"],
@@ -586,6 +784,12 @@ const listSlice = createSlice({
                 "age_rating": "PG-13",
                 "studio": "A-1 Pictures",
                 "poster_url": "./Mashle_Magic-and-Muscles.jpg",
+                "progress": {
+                    "episodes_watched": 8,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 3
             },
             {
@@ -603,11 +807,17 @@ const listSlice = createSlice({
                 "age_rating": "PG-13",
                 "studio": "Drive",
                 "poster_url": "./Konosuba_God's-Blessing-on-This-Wonderful-World.jpg",
+                "progress": {
+                    "episodes_watched": 1,
+                    "episodes_total": 11,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 3
             },
             {
                 "type": "anime",
-                "title": "Rent-a-Girlfriend Season 3",
+                "title": "Rent-a-Girlfriend [Season 3]",
                 "original_title": "彼女、お借りします 第3期",
                 "description": "Kazuya’s complicated rental relationships and real feelings escalate as he continues to date rented girlfriends while chasing his dreams.",
                 "genres": ["Romance", "Comedy", "Slice of Life"],
@@ -620,6 +830,12 @@ const listSlice = createSlice({
                 "age_rating": "PG-13",
                 "studio": "TMS Entertainment",
                 "poster_url": "./Rent-a-Girlfriend.jpg",
+                "progress": {
+                    "episodes_watched": 1,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 3
             },
             {
@@ -637,6 +853,12 @@ const listSlice = createSlice({
                 "age_rating": "PG-13",
                 "studio": "Silver Link & Nexus",
                 "poster_url": "./Chivalry-of-a-Failed-Knight.jpeg",
+                "progress": {
+                    "episodes_watched": 12,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 3
             },
             {
@@ -654,6 +876,12 @@ const listSlice = createSlice({
                 "age_rating": "R-17",
                 "studio": "Project No.9",
                 "poster_url": "./Higehiro_After-Being-Rejected,-I-Shaved-and-Took-in-a-High-School-Runaway.jpg",
+                "progress": {
+                    "episodes_watched": 12,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 3
             },
             {
@@ -671,6 +899,12 @@ const listSlice = createSlice({
                 "age_rating": "PG-13",
                 "studio": "A-1 Pictures, Satelight, Bridge",
                 "poster_url": "./Fairy-Tail-Television-Show.jpg",
+                "progress": {
+                    "episodes_watched": 12,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 3
             },
             {
@@ -688,6 +922,12 @@ const listSlice = createSlice({
                 "age_rating": "PG-13",
                 "studio": "Tezuka Productions",
                 "poster_url": "./The-Quintessential-Quintuplets.jpg",
+                "progress": {
+                    "episodes_watched": 12,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 3
             },
             {
@@ -705,6 +945,12 @@ const listSlice = createSlice({
                 "age_rating": "PG-13",
                 "studio": "Production Reed",
                 "poster_url": "./In-Another-World-With-My-Smartphone.jpg",
+                "progress": {
+                    "episodes_watched": 12,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 3
             },
             {
@@ -722,6 +968,12 @@ const listSlice = createSlice({
                 "age_rating": "R-17",
                 "studio": "Asread & White Fox",
                 "poster_url": "./Arifureta_From-Commonplace-to-World's-Strongest.jpg",
+                "progress": {
+                    "episodes_watched": 12,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 3
             },
 
@@ -743,6 +995,12 @@ const listSlice = createSlice({
                 "age_rating": "R-17",
                 "studio": "A-1 Pictures",
                 "poster_url": "./Sword-Art-Online.jpg",
+                "progress": {
+                    "episodes_watched": 12,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 4
             },
             {
@@ -760,6 +1018,12 @@ const listSlice = createSlice({
                 "age_rating": "PG-13",
                 "studio": "J.C.Staff",
                 "poster_url": "./Food-Wars.jpg",
+                "progress": {
+                    "episodes_watched": 12,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 4
             },
             {
@@ -777,6 +1041,12 @@ const listSlice = createSlice({
                 "age_rating": "PG-13",
                 "studio": "Studio Gokumi",
                 "poster_url": "./A-Galaxy-Next-Door.jpg",
+                "progress": {
+                    "episodes_watched": 12,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 4
             },
             {
@@ -794,6 +1064,12 @@ const listSlice = createSlice({
                 "age_rating": "PG-13",
                 "studio": "Shin-Ei Animation",
                 "poster_url": "./A-Couple-of-Cuckoos.jpg",
+                "progress": {
+                    "episodes_watched": 12,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 4
             },
             {
@@ -811,6 +1087,12 @@ const listSlice = createSlice({
                 "age_rating": "PG-13",
                 "studio": "Pine Jam",
                 "poster_url": "./Kubo-Won't-Let-Me-Be-Invisible.jpg",
+                "progress": {
+                    "episodes_watched": 12,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 4
             },
             {
@@ -828,6 +1110,12 @@ const listSlice = createSlice({
                 "age_rating": "R-17",
                 "studio": "A-1 Pictures",
                 "poster_url": "./86-Eighty-Six.jpg",
+                "progress": {
+                    "episodes_watched": 12,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 4
             },
             {
@@ -845,6 +1133,12 @@ const listSlice = createSlice({
                 "age_rating": "PG-13",
                 "studio": "Seven Arcs",
                 "poster_url": "./TONIKAWA_Over-the-Moon-For-You.jpg",
+                "progress": {
+                    "episodes_watched": 12,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 4
             },
             {
@@ -862,6 +1156,12 @@ const listSlice = createSlice({
                 "age_rating": "PG-13",
                 "studio": "CloverWorks",
                 "poster_url": "./Horimiya.jpg",
+                "progress": {
+                    "episodes_watched": 12,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 4
             },
             {
@@ -879,6 +1179,12 @@ const listSlice = createSlice({
                 "age_rating": "PG-13",
                 "studio": "Lay-duce",
                 "poster_url": "./Tomo-Chan-Is-a-Girl.png",
+                "progress": {
+                    "episodes_watched": 12,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 4
             },
             {
@@ -896,6 +1202,12 @@ const listSlice = createSlice({
                 "age_rating": "PG-13",
                 "studio": "Studio Silver",
                 "poster_url": "./My-Stepsister-is-My-Ex-Girlfriend.png",
+                "progress": {
+                    "episodes_watched": 12,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 4
             },
             {
@@ -913,6 +1225,12 @@ const listSlice = createSlice({
                 "age_rating": "PG-13",
                 "studio": "Diomedéa",
                 "poster_url": "./The-Saint's-Magic-Power-is-Omnipotent.png",
+                "progress": {
+                    "episodes_watched": 12,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 4
             },
             {
@@ -930,6 +1248,12 @@ const listSlice = createSlice({
                 "age_rating": "R-17",
                 "studio": "White Fox",
                 "poster_url": "./Re_Zero-Starting-Life-in-Another-World.webp",
+                "progress": {
+                    "episodes_watched": 12,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 4
             },
             {
@@ -947,6 +1271,12 @@ const listSlice = createSlice({
                 "age_rating": "PG-13",
                 "studio": "Connect",
                 "poster_url": "./ORESUKI_Are-You-the-Only-One-Who-Loves-Me.png",
+                "progress": {
+                    "episodes_watched": 12,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 4
             },
             {
@@ -964,6 +1294,12 @@ const listSlice = createSlice({
                 "age_rating": "PG-13",
                 "studio": "8bit",
                 "poster_url": "./Knight's-&-Magic.jpe",
+                "progress": {
+                    "episodes_watched": 12,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 4
             },
             {
@@ -981,6 +1317,12 @@ const listSlice = createSlice({
                 "age_rating": "PG-13",
                 "studio": "AJIADO",
                 "poster_url": "./Ascendance-of-a-Bookworm.png",
+                "progress": {
+                    "episodes_watched": 12,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 4
             },
             {
@@ -998,6 +1340,12 @@ const listSlice = createSlice({
                 "age_rating": "R-17",
                 "studio": "C2C",
                 "poster_url": "./Tsukimichi_Moonlit-Fantasy.jpg",
+                "progress": {
+                    "episodes_watched": 12,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 4
             },
             {
@@ -1015,6 +1363,12 @@ const listSlice = createSlice({
                 "age_rating": "PG-13",
                 "studio": "Studio Flad",
                 "poster_url": "./Banished-from-the-Hero's-Party.jpg",
+                "progress": {
+                    "episodes_watched": 12,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 4
             },
             {
@@ -1032,6 +1386,12 @@ const listSlice = createSlice({
                 "age_rating": "R-17",
                 "studio": "Studio Kai",
                 "poster_url": "./Skeleton-Knight-in-Another-World.png",
+                "progress": {
+                    "episodes_watched": 12,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 4
             },
 
@@ -1053,6 +1413,12 @@ const listSlice = createSlice({
                 "age_rating": "PG-13",
                 "studio": "J.C.Staff",
                 "poster_url": "./The-Strongest-Sage-with-the-Weakest-Crest.png",
+                "progress": {
+                    "episodes_watched": 12,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 5
             },
             {
@@ -1070,6 +1436,12 @@ const listSlice = createSlice({
                 "age_rating": "PG-13",
                 "studio": "Silver Link",
                 "poster_url": "./The-Greatest-Demon-Lord-Is-Reborn-as-a-Typical-Nobody.jpeg",
+                "progress": {
+                    "episodes_watched": 12,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 5
             },
             {
@@ -1087,6 +1459,12 @@ const listSlice = createSlice({
                 "age_rating": "PG-13",
                 "studio": "Studio Flad",
                 "poster_url": "./Handyman-Saitou-in-Another-World.jpeg",
+                "progress": {
+                    "episodes_watched": 12,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 5
             },
             {
@@ -1104,6 +1482,12 @@ const listSlice = createSlice({
                 "age_rating": "PG-13",
                 "studio": "Studio Hokiboshi",
                 "poster_url": "./Summoned-to-Another-World-for-a-Second-Time.png",
+                "progress": {
+                    "episodes_watched": 12,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 5
             },
             {
@@ -1121,6 +1505,12 @@ const listSlice = createSlice({
                 "age_rating": "R-17",
                 "studio": "Twinkle",
                 "poster_url": "./Lord-Marksman-and-Vanadis.jpg",
+                "progress": {
+                    "episodes_watched": 12,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 5
             },
             {
@@ -1138,6 +1528,12 @@ const listSlice = createSlice({
                 "age_rating": "TV-MA",
                 "studio": "Lerche",
                 "poster_url": "./Monster-Musume-Everyday-Life-with-Monster-Girls.jpg",
+                "progress": {
+                    "episodes_watched": 12,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 5
             },
             {
@@ -1155,6 +1551,12 @@ const listSlice = createSlice({
                 "age_rating": "PG-13",
                 "studio": "Zero-G",
                 "poster_url": "./Farming-Life-in-Another-World.png",
+                "progress": {
+                    "episodes_watched": 12,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 5
             },
             {
@@ -1172,6 +1574,12 @@ const listSlice = createSlice({
                 "age_rating": "PG-13",
                 "studio": "Troyca",
                 "poster_url": "./Spirit-Chronicles.jpg",
+                "progress": {
+                    "episodes_watched": 12,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 5
             },
             {
@@ -1189,6 +1597,12 @@ const listSlice = createSlice({
                 "age_rating": "R-17",
                 "studio": "Silver Link & Studio Palette",
                 "poster_url": "./The-World's-Finest-Assassin-Gets-Reincarnated-in-Another-World-as-an-Aristocrat.png",
+                "progress": {
+                    "episodes_watched": 12,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 5
             },
             {
@@ -1206,6 +1620,12 @@ const listSlice = createSlice({
                 "age_rating": "R-17",
                 "studio": "Millepensee",
                 "poster_url": "./I-Got-a-Cheat-Skill-in-Another-World-and-Became-Unrivaled-in-the-Real-World,Too.png",
+                "progress": {
+                    "episodes_watched": 12,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 5
             },
             {
@@ -1223,6 +1643,12 @@ const listSlice = createSlice({
                 "age_rating": "R-17",
                 "studio": "Geek Toys",
                 "poster_url": "./Dead-Mount-Death-Play.jpg",
+                "progress": {
+                    "episodes_watched": 12,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 5
             },
             {
@@ -1240,6 +1666,12 @@ const listSlice = createSlice({
                 "age_rating": "PG-13",
                 "studio": "Olm",
                 "poster_url": "./Komi-Can't-Communicate.png",
+                "progress": {
+                    "episodes_watched": 12,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 5
             },
             {
@@ -1257,6 +1689,12 @@ const listSlice = createSlice({
                 "age_rating": "PG-13",
                 "studio": "Atelier Pont d'Arc",
                 "poster_url": "./The-Dangers-in-My-Heart.png",
+                "progress": {
+                    "episodes_watched": 12,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 5
             },
             {
@@ -1274,6 +1712,12 @@ const listSlice = createSlice({
                 "age_rating": "PG-13",
                 "studio": "Silver Link",
                 "poster_url": "./Masamune-kun's-Revenge.png",
+                "progress": {
+                    "episodes_watched": 12,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 5
             },
             {
@@ -1291,6 +1735,12 @@ const listSlice = createSlice({
                 "age_rating": "PG-13",
                 "studio": "HOTLINE",
                 "poster_url": "./The-Fruit-of-Evolution-Before-I-Knew-It_My-Life-Had-It-Made.png",
+                "progress": {
+                    "episodes_watched": 12,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 5
             },
             {
@@ -1308,6 +1758,12 @@ const listSlice = createSlice({
                 "age_rating": "PG-13",
                 "studio": "Swordfish",
                 "poster_url": "./Trapped-in-a-Dating-Sim_The-World-of-Otome-Games-is-Tough-for-Mobs.png",
+                "progress": {
+                    "episodes_watched": 12,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
                 "tab_number": 5
             }
 

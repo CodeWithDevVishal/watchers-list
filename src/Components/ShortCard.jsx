@@ -7,16 +7,20 @@ function ShortCard({ data }) {
   const handleRedirect = (e) => {
     if (e.target.tagName == 'BUTTON') {
 
-      // navigate("detail", { state: data })
-      const query = data.title || data.original_title || "";
-      if (!query.trim()) return;
+      navigate("detail", { state: data })
+      // const query = data.title || data.original_title || "";
+      // if (!query.trim()) return;
 
-      const encoded = encodeURIComponent(query.trim());
-      const url = `https://www.google.com/search?q=${encoded}`;
-      window.open(url, "_blank", "noopener,noreferrer");
+      // const encoded = encodeURIComponent(query.trim());
+      // const url = `https://www.google.com/search?q=${encoded}`;
+      // window.open(url, "_blank", "noopener,noreferrer");
     }
   };
 
+   // Progress percentage
+  const progressPercent = data.progress?.episodes_total 
+    ? Math.round((data.progress.episodes_watched / data.progress.episodes_total) * 100)
+    : 0;
 
 
   return (
@@ -41,6 +45,22 @@ function ShortCard({ data }) {
             </div>
           </div>
         )}
+        
+        {/* Progress overlay */}
+        {progressPercent > 0 && (
+          <div className="absolute bottom-0 left-0 right-0 bg-black/70 backdrop-blur-sm p-3">
+            <div className="w-full bg-gray-700 rounded-full h-2">
+              <div 
+                className="bg-gradient-to-r from-emerald-400 to-teal-500 h-2 rounded-full shadow-lg transition-all duration-500"
+                style={{ width: `${progressPercent}%` }}
+              />
+            </div>
+            <p className="text-xs text-emerald-300 font-bold mt-1">
+              {data.progress.episodes_watched}/{data.progress.episodes_total}
+            </p>
+          </div>
+        )}
+
         {/* Hover overlay */}
         <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
       </div>

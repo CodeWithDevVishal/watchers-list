@@ -13,31 +13,51 @@ function InformationCard() {
     window.open(url, "_blank", "noopener,noreferrer");
   };
 
-  // Filter out empty strings from arrays
-  const cleanLanguage = Array.isArray(data.language)
-    ? data.language.filter(lang => lang.trim())
-    : [];
-  const cleanSubtitles = Array.isArray(data.subtitles)
-    ? data.subtitles.filter(sub => sub.trim())
-    : [];
-  const cleanGenres = Array.isArray(data.genres)
-    ? data.genres.filter(genre => genre.trim())
-    : [];
+  // Filter arrays
+  const cleanLanguage = Array.isArray(data.language) ? data.language.filter(lang => lang?.trim()) : [];
+  const cleanSubtitles = Array.isArray(data.subtitles) ? data.subtitles.filter(sub => sub?.trim()) : [];
+  const cleanGenres = Array.isArray(data.genres) ? data.genres.filter(genre => genre?.trim()) : [];
 
-  // Type-specific badge styling
+  // Progress
+  const progressPercent = data.progress?.episodes_total
+    ? Math.round((data.progress.episodes_watched / data.progress.episodes_total) * 100)
+    : 0;
+
+  // Type badge
   const getTypeBadge = (type) => {
     const typeConfig = {
       anime: { bg: "bg-gradient-to-r from-blue-500 to-purple-600", text: "text-white", icon: "🎌" },
       movie: { bg: "bg-gradient-to-r from-orange-500 to-red-500", text: "text-white", icon: "🎬" },
-      'web series': { bg: "bg-gradient-to-r from-green-500 to-emerald-600", text: "text-white", icon: "📺" }
+      'web series': { bg: "bg-gradient-to-r from-green-500 to-emerald-600", text: "text-white", icon: "📺" },
+      manhwa: { bg: "bg-gradient-to-r from-amber-500 to-orange-500", text: "text-white", icon: "📑" },
+      manga: { bg: "bg-gradient-to-r from-pink-500 to-rose-500", text: "text-white", icon: "🧾" }
     };
     const config = typeConfig[type?.toLowerCase().trim()] || { bg: "bg-gray-100", text: "text-gray-700", icon: "" };
     return (
-      <span className={`px-3 py-1 rounded-full ${config.bg} ${config.text} text-sm font-semibold shadow-md flex items-center gap-1`}>
+      <span className={`px-4 py-2 rounded-2xl ${config.bg} ${config.text} text-sm font-bold shadow-lg flex items-center gap-2`}>
         {config.icon} {type}
       </span>
     );
   };
+
+  // Check if content is video-based
+const isVideoContent = (type) => {
+  const videoTypes = ['anime', 'movie', 'web series'];
+  return videoTypes.includes(type?.toLowerCase().trim());
+};
+
+// Video progress percentage (episodes)
+const videoProgressPercent = (data) => {
+  const total = data.progress?.episodes_total || 1;
+  return Math.round((data.progress?.episodes_watched || 0) / total * 100);
+};
+
+// Readable progress percentage (chapters)
+const readableProgressPercent = (data) => {
+  const total = data.progress?.chapters_total || 1;
+  return Math.round((data.progress?.chapters_read || 0) / total * 100);
+};
+
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-50 to-indigo-50 px-4 py-8 sm:py-12">
@@ -96,6 +116,47 @@ function InformationCard() {
               </span>
             )}
           </div>
+
+          {/* Progress */}
+          {data.progress && (
+            <div className="bg-gradient-to-r from-emerald-50 to-teal-50 p-6 rounded-3xl shadow-xl border border-emerald-200">
+              <h3 className="text-xl font-bold text-emerald-800 mb-4 flex items-center gap-2">
+                {isVideoContent(data.type) ? '🎬 Episodes Progress' : '📖 Chapters Progress'}
+              </h3>
+              <div className="space-y-3">
+                {/* Video content (anime, movie, web series) */}
+                {isVideoContent(data.type) ? (
+                  <>
+                    <div className="flex justify-between text-sm text-gray-700 mb-2">
+                      <span>Episodes: {data.progress.episodes_watched}/{data.progress.episodes_total}</span>
+                      <span>{videoProgressPercent(data)}%</span>
+                    </div>
+                    <div className="w-full bg-gray-300 rounded-full h-3">
+                      <div
+                        className="bg-gradient-to-r from-emerald-500 to-teal-500 h-3 rounded-full shadow-lg transition-all duration-1000"
+                        style={{ width: `${videoProgressPercent(data)}%` }}
+                      />
+                    </div>
+                  </>
+                ) : (
+                  <>
+                    {/* Readable content (manhwa, manga) */}
+                    <div className="flex justify-between text-sm text-gray-700 mb-2">
+                      <span>Chapters: {data.progress.chapters_read}/{data.progress.chapters_total}</span>
+                      <span>{readableProgressPercent(data)}%</span>
+                    </div>
+                    <div className="w-full bg-gray-300 rounded-full h-3">
+                      <div
+                        className="bg-gradient-to-r from-purple-500 to-pink-500 h-3 rounded-full shadow-lg transition-all duration-1000"
+                        style={{ width: `${readableProgressPercent(data)}%` }}
+                      />
+                    </div>
+                  </>
+                )}
+              </div>
+            </div>
+          )}
+
 
           {/* Description */}
           {data.description && data.description.trim() && (
