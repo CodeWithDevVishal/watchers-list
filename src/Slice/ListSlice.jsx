@@ -1765,7 +1765,402 @@ const listSlice = createSlice({
                     "chapters_total": 0
                 },
                 "tab_number": 5
+            },
+
+            //.................................................................................................................................
+
+            {
+                "type": "anime",
+                "title": "I'm the Villainess, So I'm Taming the Final Boss",
+                "original_title": "悪役令嬢なのでラスボスを飼ってみました",
+                "description": "Aileen regains memories of her past life and realizes she is a doomed villainess in an otome game, so she decides to win over the demon king final boss to avoid death.",
+                "genres": ["Comedy", "Fantasy", "Romance"],
+                "status": "completed",
+                "season": 1,
+                "total_seasons": 1,
+                "year": 2022,
+                "language": ["Japanese", "English"],
+                "subtitles": ["English", "Hindi"],
+                "age_rating": "PG-13",
+                "studio": "Maho Film",
+                "poster_url": "./Im-the-Villainess-So-Im-Taming-the-Final-Boss.png",
+                "progress": {
+                    "episodes_watched": 12,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
+                "tab_number": 6
+            },
+            {
+                "type": "anime",
+                "title": "How a Realist Hero Rebuilt the Kingdom Part 2 [season 2]",
+                "original_title": "現実主義勇者の王国再建記 Part 2",
+                "description": "Kazuya Souma continues his pragmatic reforms and political maneuvering to stabilize and strengthen his newly unified kingdom.",
+                "genres": ["Fantasy", "Isekai", "Drama"],
+                "status": "completed",
+                "season": 2,
+                "total_seasons": 2,
+                "year": 2022,
+                "language": ["Japanese", "English"],
+                "subtitles": ["English", "Hindi"],
+                "age_rating": "PG-13",
+                "studio": "J.C.Staff",
+                "poster_url": "./How-a-Realist-Hero-Rebuilt-the-Kingdom-Part-2.png",
+                "progress": {
+                    "episodes_watched": 13,
+                    "episodes_total": 13,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
+                "tab_number": 6
+            },
+            {
+                "type": "anime",
+                "title": "My Dress-Up Darling [Season 2]",
+                "original_title": "その着せ替え人形は恋をする 2期",
+                "description": "Gojo and Marin deepen their relationship as they tackle more ambitious cosplay projects and navigate their growing feelings.",
+                "genres": ["Romance", "Comedy", "Slice of Life"],
+                "status": "upcoming",
+                "season": 1,
+                "total_seasons": 2,
+                "year": 2025,
+                "language": ["Japanese", "English"],
+                "subtitles": ["English", "Hindi"],
+                "age_rating": "TV-14",
+                "studio": "CloverWorks",
+                "poster_url": "./My-Dress-Up-Darling-Season-2.png",
+                "progress": {
+                    "episodes_watched": 0,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
+                "tab_number": 6
+            },
+            {
+                "type": "anime",
+                "title": "Parallel World Pharmacy",
+                "original_title": "異世界薬局",
+                "description": "A genius pharmacist is reborn in a fantasy world and uses modern medical knowledge to cure diseases and reform healthcare.",
+                "genres": ["Fantasy", "Slice of Life", "Isekai"],
+                "status": "completed",
+                "season": 1,
+                "total_seasons": 1,
+                "year": 2022,
+                "language": ["Japanese", "English"],
+                "subtitles": ["English", "Hindi"],
+                "age_rating": "PG-13",
+                "studio": "Diomedéa",
+                "poster_url": "./Parallel-World-Pharmacy.png",
+                "progress": {
+                    "episodes_watched": 0,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
+                "tab_number": 6
+            },
+            {
+                "type": "anime",
+                "title": "Life with an Ordinary Guy Who Reincarnated into a Total Fantasy Knockout",
+                "original_title": "異世界美少女受肉おじさんと",
+                "description": "Two middle-aged friends are transported to a fantasy world, where one is turned into a beautiful girl and the other must protect her.",
+                "genres": ["Comedy", "Fantasy", "Isekai"],
+                "status": "completed",
+                "season": 1,
+                "total_seasons": 1,
+                "year": 2022,
+                "language": ["Japanese", "English"],
+                "subtitles": ["English", "Hindi"],
+                "age_rating": "PG-13",
+                "studio": "OLM, Sunrise Beyond",
+                "poster_url": "./Fantasy-Knockout.png",
+                "progress": {
+                    "episodes_watched": 0,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
+                "tab_number": 6
+            },
+            {
+                "type": "anime",
+                "title": "Overlord IV",
+                "original_title": "オーバーロードIV",
+                "description": "Ainz Ooal Gown continues to expand his kingdom and confront new political and military threats in the New World.",
+                "genres": ["Action", "Fantasy", "Isekai"],
+                "status": "completed",
+                "season": 4,
+                "total_seasons": 4,
+                "year": 2022,
+                "language": ["Japanese", "English"],
+                "subtitles": ["English", "Hindi"],
+                "age_rating": "R-17",
+                "studio": "Madhouse",
+                "poster_url": "./Overlord-IV.png",
+                "progress": {
+                    "episodes_watched": 0,
+                    "episodes_total": 13,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
+                "tab_number": 6
+            },
+            {
+                "type": "anime",
+                "title": "ReLIFE",
+                "original_title": "ReLIFE",
+                "description": "A 27-year-old NEET takes a drug that makes him look 17 and gets a second chance at high school life.",
+                "genres": ["Drama", "Romance", "School"],
+                "status": "completed",
+                "season": 1,
+                "total_seasons": 1,
+                "year": 2016,
+                "language": ["Japanese", "English"],
+                "subtitles": ["English", "Hindi"],
+                "age_rating": "PG-13",
+                "studio": "TMS Entertainment",
+                "poster_url": "./ReLIFE.png",
+                "progress": {
+                    "episodes_watched": 0,
+                    "episodes_total": 13,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
+                "tab_number": 6
+            },
+            {
+                "type": "anime",
+                "title": "Uzaki-chan Wants to Hang Out! Season 2",
+                "original_title": "宇崎ちゃんは遊びたい！ω",
+                "description": "Uzaki and Sakurai’s daily teasing and awkward romantic tension continue with new friends and situations.",
+                "genres": ["Comedy", "Slice of Life", "Romance"],
+                "status": "completed",
+                "season": 2,
+                "total_seasons": 2,
+                "year": 2022,
+                "language": ["Japanese", "English"],
+                "subtitles": ["English", "Hindi"],
+                "age_rating": "PG-13",
+                "studio": "ENGI",
+                "poster_url": "./Uzaki-chan-Season-2.png",
+                "progress": {
+                    "episodes_watched": 0,
+                    "episodes_total": 13,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
+                "tab_number": 6
+            },
+            {
+                "type": "anime",
+                "title": "Kono Oto Tomare!: Sounds of Life Season 2",
+                "original_title": "この音とまれ！ 第2期",
+                "description": "The koto club continues to hone its music and friendships as they aim for national competition.",
+                "genres": ["Music", "Drama", "School"],
+                "status": "completed",
+                "season": 2,
+                "total_seasons": 2,
+                "year": 2019,
+                "language": ["Japanese", "English"],
+                "subtitles": ["English", "Hindi"],
+                "age_rating": "PG-13",
+                "studio": "Platinum Vision",
+                "poster_url": "./Kono-Oto-Tomare-Season-2.png",
+                "progress": {
+                    "episodes_watched": 0,
+                    "episodes_total": 13,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
+                "tab_number": 6
+            },
+            {
+                "type": "anime",
+                "title": "The Kawai Complex Guide to Manors and Hostel Behavior",
+                "original_title": "僕らはみんな河合荘",
+                "description": "A boy moves into a boarding house full of quirky residents and falls for a bookish senior.",
+                "genres": ["Comedy", "Romance", "Slice of Life"],
+                "status": "completed",
+                "season": 1,
+                "total_seasons": 1,
+                "year": 2014,
+                "language": ["Japanese", "English"],
+                "subtitles": ["English", "Hindi"],
+                "age_rating": "PG-13",
+                "studio": "Brains Base",
+                "poster_url": "./Kawai-Complex.png",
+                "progress": {
+                    "episodes_watched": 0,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
+                "tab_number": 6
+            },
+            {
+                "type": "anime",
+                "title": "So I'm a Spider, So What?",
+                "original_title": "蜘蛛ですが、なにか？",
+                "description": "A girl reincarnates as a spider monster in a dungeon and must evolve and survive against overwhelming odds.",
+                "genres": ["Fantasy", "Isekai", "Adventure"],
+                "status": "completed",
+                "season": 1,
+                "total_seasons": 1,
+                "year": 2021,
+                "language": ["Japanese", "English"],
+                "subtitles": ["English", "Hindi"],
+                "age_rating": "PG-13",
+                "studio": "Millepensee",
+                "poster_url": "./So-Im-a-Spider-So-What.png",
+                "progress": {
+                    "episodes_watched": 0,
+                    "episodes_total": 24,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
+                "tab_number": 6
+            },
+            {
+                "type": "anime",
+                "title": "The Seven Deadly Sins: Revival of The Commandments",
+                "original_title": "七つの大罪 戒めの復活",
+                "description": "The Seven Deadly Sins regroup as the revived Ten Commandments threaten Britannia.",
+                "genres": ["Action", "Adventure", "Fantasy"],
+                "status": "completed",
+                "season": 2,
+                "total_seasons": 4,
+                "year": 2018,
+                "language": ["Japanese", "English"],
+                "subtitles": ["English", "Hindi"],
+                "age_rating": "R-17",
+                "studio": "A-1 Pictures",
+                "poster_url": "./Seven-Deadly-Sins-Revival-of-the-Commandments.png",
+                "progress": {
+                    "episodes_watched": 0,
+                    "episodes_total": 24,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
+                "tab_number": 6
+            },
+            {
+                "type": "anime",
+                "title": "Chillin' in My 30s After Getting Fired from the Demon King's Army",
+                "original_title": "解雇された暗黒兵士（30代）のスローなセカンドライフ",
+                "description": "A mid-level soldier fired from the Demon King's army starts a relaxed new life in a frontier village.",
+                "genres": ["Fantasy", "Romance", "Slice of Life"],
+                "status": "completed",
+                "season": 1,
+                "total_seasons": 1,
+                "year": 2023,
+                "language": ["Japanese", "English"],
+                "subtitles": ["English", "Hindi"],
+                "age_rating": "PG-13",
+                "studio": "Encourage Films",
+                "poster_url": "./Chillin-in-My-30s.png",
+                "progress": {
+                    "episodes_watched": 0,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
+                "tab_number": 6
+            },
+            {
+                "type": "anime",
+                "title": "Uncle from Another World",
+                "original_title": "異世界おじさん",
+                "description": "After waking from a coma, an uncle reveals he spent 17 years in another world and now shares his bizarre stories and magic.",
+                "genres": ["Comedy", "Fantasy", "Isekai"],
+                "status": "completed",
+                "season": 1,
+                "total_seasons": 1,
+                "year": 2022,
+                "language": ["Japanese", "English"],
+                "subtitles": ["English", "Hindi"],
+                "age_rating": "PG-13",
+                "studio": "AtelierPontdarc",
+                "poster_url": "./Uncle-from-Another-World.png",
+                "progress": {
+                    "episodes_watched": 0,
+                    "episodes_total": 13,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
+                "tab_number": 6
+            },
+            {
+                "type": "anime",
+                "title": "The Ancient Magus' Bride Season 2 Part 2",
+                "original_title": "魔法使いの嫁 SEASON2 Part 2",
+                "description": "Chise continues her studies at the college while facing new magical threats and uncovering hidden truths.",
+                "genres": ["Fantasy", "Drama", "Romance"],
+                "status": "completed",
+                "season": 2,
+                "total_seasons": 2,
+                "year": 2023,
+                "language": ["Japanese", "English"],
+                "subtitles": ["English", "Hindi"],
+                "age_rating": "PG-13",
+                "studio": "Studio Kafka",
+                "poster_url": "./Ancient-Magus-Bride-S2-Part2.png",
+                "progress": {
+                    "episodes_watched": 0,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
+                "tab_number": 6
+            },
+            {
+                "type": "anime",
+                "title": "Am I Actually the Strongest?",
+                "original_title": "実は俺、最強でした？",
+                "description": "A shut-in is reincarnated with cheat powers but is abandoned as a baby and must prove his hidden strength.",
+                "genres": ["Fantasy", "Comedy", "Isekai"],
+                "status": "completed",
+                "season": 1,
+                "total_seasons": 1,
+                "year": 2023,
+                "language": ["Japanese", "English"],
+                "subtitles": ["English", "Hindi"],
+                "age_rating": "PG-13",
+                "studio": "Staple Entertainment",
+                "poster_url": "./Am-I-Actually-the-Strongest.png",
+                "progress": {
+                    "episodes_watched": 0,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
+                "tab_number": 6
+            },
+            {
+                "type": "anime",
+                "title": "Magi: The Labyrinth of Magic",
+                "original_title": "マギ The labyrinth of magic",
+                "description": "Aladdin, Alibaba, and Morgiana explore mysterious dungeons and confront dark conspiracies across a fantastical world.",
+                "genres": ["Action", "Adventure", "Fantasy"],
+                "status": "completed",
+                "season": 1,
+                "total_seasons": 2,
+                "year": 2012,
+                "language": ["Japanese", "English"],
+                "subtitles": ["English", "Hindi"],
+                "age_rating": "PG-13",
+                "studio": "A-1 Pictures",
+                "poster_url": "./Magi-The-Labyrinth-of-Magic.png",
+                "progress": {
+                    "episodes_watched": 0,
+                    "episodes_total": 25,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
+                "tab_number": 6
             }
+
 
 
         ]
@@ -1779,5 +2174,6 @@ const listSlice = createSlice({
 
 export const { message } = listSlice.actions
 export default listSlice.reducer
+
 
 
