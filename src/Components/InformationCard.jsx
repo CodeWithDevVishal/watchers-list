@@ -202,7 +202,8 @@ const readableProgressPercent = (data) => {
               className="flex-1 bg-gradient-to-r from-purple-600 via-purple-600 to-indigo-600 hover:from-purple-700 hover:via-purple-700 hover:to-indigo-700 text-white font-bold py-4 px-8 rounded-2xl shadow-2xl hover:shadow-3xl hover:-translate-y-1 transition-all duration-300 text-lg focus:outline-none focus:ring-4 focus:ring-purple-500/50"
               disabled={!data.title?.trim() && !data.original_title?.trim()}
             >
-              🔍 Search "{data.title || data.original_title}" on Google
+              {/* 🔍 Search "{data.title || data.original_title}" on Google */}
+              🔍 Search "" on Google
             </button>
             <Link
               to="/watchers-list/"
