@@ -1806,7 +1806,7 @@ const listSlice = createSlice({
                 "subtitles": ["English", "Hindi"],
                 "age_rating": "PG-13",
                 "studio": "J.C.Staff",
-                "poster_url": "./How-a-Realist-Hero-Rebuilt-the-Kingdom-Part-2.png",
+                "poster_url": "./How-a-Realist-Hero-Rebuilt-the-Kingdom.png",
                 "progress": {
                     "episodes_watched": 13,
                     "episodes_total": 13,
@@ -1817,7 +1817,7 @@ const listSlice = createSlice({
             },
             {
                 "type": "anime",
-                "title": "My Dress-Up Darling [Season 2]",
+                "title": "My Dress-Up Darling [season 1]",
                 "original_title": "その着せ替え人形は恋をする 2期",
                 "description": "Gojo and Marin deepen their relationship as they tackle more ambitious cosplay projects and navigate their growing feelings.",
                 "genres": ["Romance", "Comedy", "Slice of Life"],
@@ -1829,9 +1829,9 @@ const listSlice = createSlice({
                 "subtitles": ["English", "Hindi"],
                 "age_rating": "TV-14",
                 "studio": "CloverWorks",
-                "poster_url": "./My-Dress-Up-Darling-Season-2.png",
+                "poster_url": "./My-Dress-Up-Darling.png",
                 "progress": {
-                    "episodes_watched": 0,
+                    "episodes_watched": 12,
                     "episodes_total": 12,
                     "chapters_read": 0,
                     "chapters_total": 0
@@ -1854,7 +1854,7 @@ const listSlice = createSlice({
                 "studio": "Diomedéa",
                 "poster_url": "./Parallel-World-Pharmacy.png",
                 "progress": {
-                    "episodes_watched": 0,
+                    "episodes_watched": 12,
                     "episodes_total": 12,
                     "chapters_read": 0,
                     "chapters_total": 0
@@ -1875,9 +1875,9 @@ const listSlice = createSlice({
                 "subtitles": ["English", "Hindi"],
                 "age_rating": "PG-13",
                 "studio": "OLM, Sunrise Beyond",
-                "poster_url": "./Fantasy-Knockout.png",
+                "poster_url": "./Life-with-an-Ordinary-Guy-Who-Reincarnated-into-a-Total-Fantasy-Knockout.png",
                 "progress": {
-                    "episodes_watched": 0,
+                    "episodes_watched": 12,
                     "episodes_total": 12,
                     "chapters_read": 0,
                     "chapters_total": 0
@@ -1886,7 +1886,7 @@ const listSlice = createSlice({
             },
             {
                 "type": "anime",
-                "title": "Overlord IV",
+                "title": "Overlord IV [season 4]",
                 "original_title": "オーバーロードIV",
                 "description": "Ainz Ooal Gown continues to expand his kingdom and confront new political and military threats in the New World.",
                 "genres": ["Action", "Fantasy", "Isekai"],
@@ -1900,7 +1900,7 @@ const listSlice = createSlice({
                 "studio": "Madhouse",
                 "poster_url": "./Overlord-IV.png",
                 "progress": {
-                    "episodes_watched": 0,
+                    "episodes_watched": 13,
                     "episodes_total": 13,
                     "chapters_read": 0,
                     "chapters_total": 0
@@ -1923,7 +1923,7 @@ const listSlice = createSlice({
                 "studio": "TMS Entertainment",
                 "poster_url": "./ReLIFE.png",
                 "progress": {
-                    "episodes_watched": 0,
+                    "episodes_watched": 13,
                     "episodes_total": 13,
                     "chapters_read": 0,
                     "chapters_total": 0
@@ -1932,7 +1932,7 @@ const listSlice = createSlice({
             },
             {
                 "type": "anime",
-                "title": "Uzaki-chan Wants to Hang Out! Season 2",
+                "title": "Uzaki-chan Wants to Hang Out! [season 2]",
                 "original_title": "宇崎ちゃんは遊びたい！ω",
                 "description": "Uzaki and Sakurai’s daily teasing and awkward romantic tension continue with new friends and situations.",
                 "genres": ["Comedy", "Slice of Life", "Romance"],
@@ -1944,9 +1944,9 @@ const listSlice = createSlice({
                 "subtitles": ["English", "Hindi"],
                 "age_rating": "PG-13",
                 "studio": "ENGI",
-                "poster_url": "./Uzaki-chan-Season-2.png",
+                "poster_url": "./Uzaki-chan-Wants-to-Hang-Out!.png",
                 "progress": {
-                    "episodes_watched": 0,
+                    "episodes_watched": 13,
                     "episodes_total": 13,
                     "chapters_read": 0,
                     "chapters_total": 0
@@ -1955,7 +1955,7 @@ const listSlice = createSlice({
             },
             {
                 "type": "anime",
-                "title": "Kono Oto Tomare!: Sounds of Life Season 2",
+                "title": "Kono Oto Tomare!: Sounds of Life [season 2]",
                 "original_title": "この音とまれ！ 第2期",
                 "description": "The koto club continues to hone its music and friendships as they aim for national competition.",
                 "genres": ["Music", "Drama", "School"],
@@ -1967,9 +1967,9 @@ const listSlice = createSlice({
                 "subtitles": ["English", "Hindi"],
                 "age_rating": "PG-13",
                 "studio": "Platinum Vision",
-                "poster_url": "./Kono-Oto-Tomare-Season-2.png",
+                "poster_url": "./Kono-Oto-Tomare!-Sounds-of-Life.png",
                 "progress": {
-                    "episodes_watched": 0,
+                    "episodes_watched": 13,
                     "episodes_total": 13,
                     "chapters_read": 0,
                     "chapters_total": 0
@@ -1990,9 +1990,9 @@ const listSlice = createSlice({
                 "subtitles": ["English", "Hindi"],
                 "age_rating": "PG-13",
                 "studio": "Brains Base",
-                "poster_url": "./Kawai-Complex.png",
+                "poster_url": "./The-Kawai-Complex-Guide-to-Manors-and-Hostel-Behavior.jpg",
                 "progress": {
-                    "episodes_watched": 0,
+                    "episodes_watched": 12,
                     "episodes_total": 12,
                     "chapters_read": 0,
                     "chapters_total": 0
@@ -2013,9 +2013,9 @@ const listSlice = createSlice({
                 "subtitles": ["English", "Hindi"],
                 "age_rating": "PG-13",
                 "studio": "Millepensee",
-                "poster_url": "./So-Im-a-Spider-So-What.png",
+                "poster_url": "./So-Im-a-Spider-So-What?.jpg",
                 "progress": {
-                    "episodes_watched": 0,
+                    "episodes_watched": 24,
                     "episodes_total": 24,
                     "chapters_read": 0,
                     "chapters_total": 0
@@ -2024,7 +2024,7 @@ const listSlice = createSlice({
             },
             {
                 "type": "anime",
-                "title": "The Seven Deadly Sins: Revival of The Commandments",
+                "title": "The Seven Deadly Sins: Revival of The Commandments [season 2]",
                 "original_title": "七つの大罪 戒めの復活",
                 "description": "The Seven Deadly Sins regroup as the revived Ten Commandments threaten Britannia.",
                 "genres": ["Action", "Adventure", "Fantasy"],
@@ -2036,9 +2036,9 @@ const listSlice = createSlice({
                 "subtitles": ["English", "Hindi"],
                 "age_rating": "R-17",
                 "studio": "A-1 Pictures",
-                "poster_url": "./Seven-Deadly-Sins-Revival-of-the-Commandments.png",
+                "poster_url": "./The-Seven-Deadly-Sins.jpeg",
                 "progress": {
-                    "episodes_watched": 0,
+                    "episodes_watched": 2,
                     "episodes_total": 24,
                     "chapters_read": 0,
                     "chapters_total": 0
@@ -2059,9 +2059,9 @@ const listSlice = createSlice({
                 "subtitles": ["English", "Hindi"],
                 "age_rating": "PG-13",
                 "studio": "Encourage Films",
-                "poster_url": "./Chillin-in-My-30s.png",
+                "poster_url": "./Chillin-in-My-30s-After-Getting-Fired-from-the-Demon-Kings-Army.jpeg",
                 "progress": {
-                    "episodes_watched": 0,
+                    "episodes_watched": 12,
                     "episodes_total": 12,
                     "chapters_read": 0,
                     "chapters_total": 0
@@ -2084,7 +2084,7 @@ const listSlice = createSlice({
                 "studio": "AtelierPontdarc",
                 "poster_url": "./Uncle-from-Another-World.png",
                 "progress": {
-                    "episodes_watched": 0,
+                    "episodes_watched": 13,
                     "episodes_total": 13,
                     "chapters_read": 0,
                     "chapters_total": 0
@@ -2093,7 +2093,7 @@ const listSlice = createSlice({
             },
             {
                 "type": "anime",
-                "title": "The Ancient Magus' Bride Season 2 Part 2",
+                "title": "The Ancient Magus' Bride [Season 2 - Part 2]",
                 "original_title": "魔法使いの嫁 SEASON2 Part 2",
                 "description": "Chise continues her studies at the college while facing new magical threats and uncovering hidden truths.",
                 "genres": ["Fantasy", "Drama", "Romance"],
@@ -2105,9 +2105,9 @@ const listSlice = createSlice({
                 "subtitles": ["English", "Hindi"],
                 "age_rating": "PG-13",
                 "studio": "Studio Kafka",
-                "poster_url": "./Ancient-Magus-Bride-S2-Part2.png",
+                "poster_url": "./The-Ancient-Magus-Bride.png",
                 "progress": {
-                    "episodes_watched": 0,
+                    "episodes_watched": 2,
                     "episodes_total": 12,
                     "chapters_read": 0,
                     "chapters_total": 0
@@ -2130,7 +2130,7 @@ const listSlice = createSlice({
                 "studio": "Staple Entertainment",
                 "poster_url": "./Am-I-Actually-the-Strongest.png",
                 "progress": {
-                    "episodes_watched": 0,
+                    "episodes_watched": 12,
                     "episodes_total": 12,
                     "chapters_read": 0,
                     "chapters_total": 0
@@ -2153,14 +2153,407 @@ const listSlice = createSlice({
                 "studio": "A-1 Pictures",
                 "poster_url": "./Magi-The-Labyrinth-of-Magic.png",
                 "progress": {
-                    "episodes_watched": 0,
+                    "episodes_watched": 7,
                     "episodes_total": 25,
                     "chapters_read": 0,
                     "chapters_total": 0
                 },
                 "tab_number": 6
-            }
+            },
 
+            // .........................................................................................................
+
+            {
+                "type": "anime",
+                "title": "The Great Cleric",
+                "original_title": "聖者無双～サラリーマン、異世界で生き残るために冥界ルートを歩む～",
+                "description": "A salaryman reincarnated as a cleric in a fantasy world uses modern knowledge to revolutionize healing magic and survive dangerous adventures.",
+                "genres": ["Fantasy", "Isekai", "Adventure"],
+                "status": "ongoing",
+                "season": 1,
+                "total_seasons": 1,
+                "year": 2023,
+                "language": ["Japanese", "English"],
+                "subtitles": ["English", "Hindi"],
+                "age_rating": "PG-13",
+                "studio": "Madhouse",
+                "poster_url": "./The-Great-Cleric.png",
+                "progress": {
+                    "episodes_watched": 0,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
+                "tab_number": 7
+            },
+            {
+                "type": "anime",
+                "title": "Classroom for Heroes",
+                "original_title": "勇者たちの教室",
+                "description": "A powerful swordmaster enrolled in a magic academy realizes he is much stronger than his peers and must learn to adapt.",
+                "genres": ["Fantasy", "School", "Comedy"],
+                "status": "completed",
+                "season": 1,
+                "total_seasons": 1,
+                "year": 2023,
+                "language": ["Japanese", "English"],
+                "subtitles": ["English", "Hindi"],
+                "age_rating": "PG-13",
+                "studio": "Studio Gokumi",
+                "poster_url": "./Classroom-for-Heroes.png",
+                "progress": {
+                    "episodes_watched": 0,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
+                "tab_number": 7
+            },
+            {
+                "type": "anime",
+                "title": "My Happy Marriage",
+                "original_title": "わたしの幸せな結婚",
+                "description": "A girl with suppressed powers is forced into an arranged marriage with a cold nobleman, but they develop genuine feelings for each other.",
+                "genres": ["Romance", "Fantasy", "Drama"],
+                "status": "completed",
+                "season": 1,
+                "total_seasons": 1,
+                "year": 2023,
+                "language": ["Japanese", "English"],
+                "subtitles": ["English", "Hindi"],
+                "age_rating": "PG-13",
+                "studio": "Kinema Citrus",
+                "poster_url": "./My-Happy-Marriage.png",
+                "progress": {
+                    "episodes_watched": 0,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
+                "tab_number": 7
+            },
+            {
+                "type": "anime",
+                "title": "Saint Cecilia and Pastor Lawrence",
+                "original_title": "聖女の実装",
+                "description": "A saint works alongside a cynical priest in a fantasy world, dealing with divine miracles and church politics.",
+                "genres": ["Fantasy", "Comedy", "Slice of Life"],
+                "status": "completed",
+                "season": 1,
+                "total_seasons": 1,
+                "year": 2023,
+                "language": ["Japanese", "English"],
+                "subtitles": ["English", "Hindi"],
+                "age_rating": "PG-13",
+                "studio": "Studio 3Hz",
+                "poster_url": "./Saint-Cecilia-and-Pastor-Lawrence.png",
+                "progress": {
+                    "episodes_watched": 0,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
+                "tab_number": 7
+            },
+            {
+                "type": "anime",
+                "title": "Sweet Reincarnation",
+                "original_title": "甘い冒険者たち",
+                "description": "A baker reincarnates in a fantasy world and uses her baking skills to create delicious treats that become legendary.",
+                "genres": ["Fantasy", "Isekai", "Slice of Life"],
+                "status": "completed",
+                "season": 1,
+                "total_seasons": 1,
+                "year": 2023,
+                "language": ["Japanese", "English"],
+                "subtitles": ["English", "Hindi"],
+                "age_rating": "PG-13",
+                "studio": "Studio A-CAT",
+                "poster_url": "./Sweet-Reincarnation.png",
+                "progress": {
+                    "episodes_watched": 0,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
+                "tab_number": 7
+            },
+            {
+                "type": "anime",
+                "title": "My Unique Skill Makes Me OP Even at Level 1",
+                "original_title": "ユニークスキルで異世界無双",
+                "description": "A boy reborn with a unique skill that steals and copies abilities becomes overpowered in a fantasy world.",
+                "genres": ["Action", "Fantasy", "Isekai"],
+                "status": "completed",
+                "season": 1,
+                "total_seasons": 1,
+                "year": 2023,
+                "language": ["Japanese", "English"],
+                "subtitles": ["English", "Hindi"],
+                "age_rating": "R-17",
+                "studio": "Dahu",
+                "poster_url": "./My-Unique-Skill-OP.png",
+                "progress": {
+                    "episodes_watched": 0,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
+                "tab_number": 7
+            },
+            {
+                "type": "anime",
+                "title": "Liar Liar",
+                "original_title": "ライアー・ライアー",
+                "description": "A girl who always tells the truth meets a boy who always lies, creating comedic and romantic situations.",
+                "genres": ["Comedy", "Romance", "School"],
+                "status": "completed",
+                "season": 1,
+                "total_seasons": 1,
+                "year": 2023,
+                "language": ["Japanese", "English"],
+                "subtitles": ["English", "Hindi"],
+                "age_rating": "PG-13",
+                "studio": "Diomedéa",
+                "poster_url": "./Liar-Liar.png",
+                "progress": {
+                    "episodes_watched": 0,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
+                "tab_number": 7
+            },
+            {
+                "type": "anime",
+                "title": "Reborn as a Vending Machine, Now I Wander the Dungeon",
+                "original_title": "自動販売機に転生したから、ダンジョンで便利に暮らす",
+                "description": "A man reincarnates as a vending machine in a dungeon and builds a comfortable life selling snacks to adventurers.",
+                "genres": ["Fantasy", "Comedy", "Isekai"],
+                "status": "completed",
+                "season": 1,
+                "total_seasons": 1,
+                "year": 2023,
+                "language": ["Japanese", "English"],
+                "subtitles": ["English", "Hindi"],
+                "age_rating": "PG-13",
+                "studio": "Revoroot",
+                "poster_url": "./Reborn-as-Vending-Machine.png",
+                "progress": {
+                    "episodes_watched": 0,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
+                "tab_number": 7
+            },
+            {
+                "type": "anime",
+                "title": "The Reason Why Raeliana Ended Up at the Duke's Mansion",
+                "original_title": "ライラが軍国主義に堕ちるまで",
+                "description": "A girl reincarnated in a novel uses her knowledge to escape her doomed fate by tricking a cold duke into protecting her.",
+                "genres": ["Fantasy", "Romance", "Isekai"],
+                "status": "completed",
+                "season": 1,
+                "total_seasons": 1,
+                "year": 2023,
+                "language": ["Japanese", "English"],
+                "subtitles": ["English", "Hindi"],
+                "age_rating": "PG-13",
+                "studio": "Platinum Vision",
+                "poster_url": "./Raeliana-Dukes-Mansion.png",
+                "progress": {
+                    "episodes_watched": 0,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
+                "tab_number": 7
+            },
+            {
+                "type": "anime",
+                "title": "Loving Yamada at Lv999",
+                "original_title": "レベル999の村人",
+                "description": "In an VRMMO world, a legendary player falls for a girl who discovers his true identity and location.",
+                "genres": ["Romance", "Comedy", "Virtual Reality"],
+                "status": "completed",
+                "season": 1,
+                "total_seasons": 1,
+                "year": 2023,
+                "language": ["Japanese", "English"],
+                "subtitles": ["English", "Hindi"],
+                "age_rating": "PG-13",
+                "studio": "Bibury Animation Studios",
+                "poster_url": "./Loving-Yamada-Lv999.png",
+                "progress": {
+                    "episodes_watched": 0,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
+                "tab_number": 7
+            },
+            {
+                "type": "anime",
+                "title": "How Not to Summon a Demon Lord",
+                "original_title": "この素晴らしい世界に祝福を！",
+                "description": "A gamer is transported to a game world where he is mistaken for a demon lord and must pretend to be evil.",
+                "genres": ["Fantasy", "Comedy", "Ecchi"],
+                "status": "completed",
+                "season": 1,
+                "total_seasons": 2,
+                "year": 2018,
+                "language": ["Japanese", "English"],
+                "subtitles": ["English", "Hindi"],
+                "age_rating": "TV-MA",
+                "studio": "J.C.Staff",
+                "poster_url": "./How-Not-to-Summon-Demon-Lord.png",
+                "progress": {
+                    "episodes_watched": 0,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
+                "tab_number": 7
+            },
+            {
+                "type": "anime",
+                "title": "Cautious Hero: The Hero Is Overpowered But Overly Cautious",
+                "original_title": "勇者、辞めます",
+                "description": "An overpowered hero summoned to save a world takes extreme precautions before facing any danger, frustrating his goddess companion.",
+                "genres": ["Fantasy", "Comedy", "Adventure"],
+                "status": "completed",
+                "season": 1,
+                "total_seasons": 1,
+                "year": 2019,
+                "language": ["Japanese", "English"],
+                "subtitles": ["English", "Hindi"],
+                "age_rating": "PG-13",
+                "studio": "White Fox",
+                "poster_url": "./Cautious-Hero.png",
+                "progress": {
+                    "episodes_watched": 0,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
+                "tab_number": 7
+            },
+            {
+                "type": "anime",
+                "title": "Is This a Zombie?",
+                "original_title": "これはゾンビですか？",
+                "description": "A high school student is killed and resurrected as a zombie, then becomes entangled with a magical girl and supernatural mysteries.",
+                "genres": ["Comedy", "Supernatural", "Action"],
+                "status": "completed",
+                "season": 1,
+                "total_seasons": 2,
+                "year": 2011,
+                "language": ["Japanese", "English"],
+                "subtitles": ["English", "Hindi"],
+                "age_rating": "TV-14",
+                "studio": "Studio Deen",
+                "poster_url": "./Is-This-a-Zombie.png",
+                "progress": {
+                    "episodes_watched": 0,
+                    "episodes_total": 13,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
+                "tab_number": 7
+            },
+            {
+                "type": "anime",
+                "title": "Redo of Healer",
+                "original_title": "回復術士のやり直し",
+                "description": "A healer betrayed and tortured uses time-travel magic to exact revenge on those who wronged him.",
+                "genres": ["Fantasy", "Action", "Revenge"],
+                "status": "completed",
+                "season": 1,
+                "total_seasons": 1,
+                "year": 2021,
+                "language": ["Japanese", "English"],
+                "subtitles": ["English", "Hindi"],
+                "age_rating": "R-18",
+                "studio": "TNK",
+                "poster_url": "./Redo-of-Healer.png",
+                "progress": {
+                    "episodes_watched": 0,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
+                "tab_number": 7
+            },
+            {
+                "type": "anime",
+                "title": "Death March to the Parallel World Rhapsody",
+                "original_title": "デス・マーチからはじまる異世界狂想曲",
+                "description": "A programmer accidentally transported to a fantasy world with cheat powers begins a leisurely journey collecting girls and treasures.",
+                "genres": ["Fantasy", "Isekai", "Harem"],
+                "status": "completed",
+                "season": 1,
+                "total_seasons": 1,
+                "year": 2018,
+                "language": ["Japanese", "English"],
+                "subtitles": ["English", "Hindi"],
+                "age_rating": "PG-13",
+                "studio": "SILVERLINK",
+                "poster_url": "./Death-March-Parallel-World.png",
+                "progress": {
+                    "episodes_watched": 0,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
+                "tab_number": 7
+            },
+            {
+                "type": "anime",
+                "title": "No Game No Life",
+                "original_title": "ノーゲーム・ノーライフ",
+                "description": "Two socially inept siblings are transported to a world where all conflicts are resolved through games, and they must win to survive.",
+                "genres": ["Fantasy", "Adventure", "Psychological"],
+                "status": "completed",
+                "season": 1,
+                "total_seasons": 1,
+                "year": 2014,
+                "language": ["Japanese", "English"],
+                "subtitles": ["English", "Hindi"],
+                "age_rating": "PG-13",
+                "studio": "Madhouse",
+                "poster_url": "./No-Game-No-Life.png",
+                "progress": {
+                    "episodes_watched": 0,
+                    "episodes_total": 12,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
+                "tab_number": 7
+            },
+            {
+                "type": "anime",
+                "title": "Assassination Classroom",
+                "original_title": "暗殺教室",
+                "description": "A seemingly indestructible octopus monster becomes a teacher and forms deep bonds with his students who are tasked with assassinating him.",
+                "genres": ["Action", "Comedy", "School"],
+                "status": "completed",
+                "season": 1,
+                "total_seasons": 2,
+                "year": 2015,
+                "language": ["Japanese", "English"],
+                "subtitles": ["English", "Hindi"],
+                "age_rating": "PG-13",
+                "studio": "Lerche",
+                "poster_url": "./Assassination-Classroom.png",
+                "progress": {
+                    "episodes_watched": 0,
+                    "episodes_total": 22,
+                    "chapters_read": 0,
+                    "chapters_total": 0
+                },
+                "tab_number": 7
+            }
 
 
         ]
@@ -2174,6 +2567,5 @@ const listSlice = createSlice({
 
 export const { message } = listSlice.actions
 export default listSlice.reducer
-
 
 
