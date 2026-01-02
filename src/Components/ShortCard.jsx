@@ -7,13 +7,13 @@ function ShortCard({ data }) {
   const handleRedirect = (e) => {
     if (e.target.tagName == 'BUTTON') {
 
-      // navigate("detail", { state: data })
-      const query = data.title || data.original_title || "";
-      if (!query.trim()) return;
+      navigate("detail", { state: data })
+      // const query = data.title || data.original_title || "";
+      // if (!query.trim()) return;
 
-      const encoded = encodeURIComponent(query.trim());
-      const url = `https://www.google.com/search?q=${encoded}`;
-      window.open(url, "_blank", "noopener,noreferrer");
+      // const encoded = encodeURIComponent(query.trim());
+      // const url = `https://www.google.com/search?q=${encoded}`;
+      // window.open(url, "_blank", "noopener,noreferrer");
     }
   };
 
